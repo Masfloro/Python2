@@ -1,13 +1,9 @@
-import msvcrt
-print("Deme su primer numero")
-primerNumero = float(input())
-print("Deme su segundo numero")
-segundoNumero = float(input())
+primer_numero = input("ESCRIBA SU PRIMER VALOR " + "\n")
+segundo_numero = input("ESCIRBA SU SEGUNDO VALOR " + "\n")
 
-suma = primerNumero + segundoNumero
+suma = int(primer_numero) + int(segundo_numero)
 
-print(" La suma es " + str(suma))
+print("LA SUMA ES " + str(suma))
 
-msvcrt.getch()
 
 
